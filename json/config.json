@@ -1,0 +1,63 @@
+{
+
+    "defaultVisualization": 1,
+
+    "useRandomVisualization":false,
+
+    "useRandomColor" :true,
+
+    "showMouse": true,
+
+    "allowSimulation" : true,
+
+    "showGUI": true,
+
+    "showStats" : true,
+
+    "debug" :true,
+
+
+    "mapper":{
+
+        "useMapper" : false,
+
+        "mapperTop" : 0.0,
+
+        "mapperBottom" : 1.0,
+
+        "mapperLeft" : 0.0,
+
+        "mapperRight" : 1.0
+
+    },
+
+
+    "autoReload":{
+
+        "useAutoReload" : true,
+
+        "autoreloadTime": 60
+
+    },
+
+    "screen":{
+
+        "useFixedScreen":false,
+
+        "width":1920,
+
+        "height":1080
+
+    },
+
+    "background": {
+
+        "r":0,
+
+        "g":0,
+
+        "b":0
+
+    }
+
+}

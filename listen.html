@@ -1,0 +1,96 @@
+<html>
+
+<head>
+
+  <title>draw app</title>
+
+  <meta name="description" content="..." />
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="osc-browser.js"></script>
+
+</head>
+
+<div id="time-container">
+
+  <svg class="svg-ellipse" width="100" height="100" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <circle class="tester" cx="100" cy="100" r="50" stroke="#69F6FF" stroke-width="20" />
+
+  </svg>
+
+  <h3 id="counter" class="ellipse-percent-label">-</h3>
+
+</div>
+
+
+<body>
+
+
+
+  <!--<script src="main.js"></script>-->
+
+  <script>
+
+  alert("??/");
+
+  /*setupOSCListener = () =>{
+
+    var port = new osc.WebSocketPort({ url:"ws://localhost:"+3002});
+
+    port.on("message", function(oscMsg){
+
+      if(oscMsg.address == '/interactivity/status'){
+
+        console.log(oscMsg.args);
+
+        if(oscMsg.args[0] == true){
+
+          visualizations.x = p.map(oscMsg.args[1], 0.0, 1.0, 0, p.displayWidth);
+
+          visualizations.y = p.map(oscMsg.args[2], 0.0, 1.0, 0, p.displayHeight);
+
+          visualizations.isDrawing = true;
+
+
+
+        }else{
+
+          visualizations.isDrawing = false;
+
+        }
+
+      }
+
+      if(oscMsg.address == '/interactivity/coordinates'){
+
+          visualizations.x = p.map(oscMsg.args[0], 0.0, 1.0, 0, p.displayWidth);
+
+          visualizations.y = p.map(oscMsg.args[1], 0.0, 1.0, 0, p.displayHeight);
+
+        }
+
+
+    });
+
+    port.open();
+
+  }*/
+
+    //setupOSCListener();
+
+  </script>
+
+
+
+
+</body>
+
+</html>
